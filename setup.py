@@ -8,13 +8,13 @@ import os
 here = os.path.abspath(os.path.dirname(__file__))
 README = io.open(os.path.join(here, 'README.rst'), encoding="utf8").read()
 
-version = '0.4.1'
-author = 'joke2k'
+version = '0.0.1'
+author = 'Ratson'
 description = "Django-environ allows you to utilize 12factor inspired environment " \
               "variables to configure your Django application."
 install_requires = ['django', 'six']
 
-setup(name='django-environ',
+setup(name='dj-environ',
       version=version,
       description=description,
       long_description=README,
@@ -34,8 +34,8 @@ setup(name='django-environ',
       ],
       keywords='django environment variables 12factor',
       author=author,
-      author_email='joke2k@gmail.com',
-      url='https://github.com/joke2k/django-environ',
+      author_email='contact@ratson.name',
+      url='https://github.com/ratson/dj-environ',
       license='MIT License',
       packages=find_packages(),
       platforms=["any"],

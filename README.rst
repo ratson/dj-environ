@@ -4,7 +4,7 @@ Django-environ
 
 Django-environ allows you to utilize 12factor inspired environment variables to configure your Django application.
 
-|pypi| |unix_build| |windows_build| |coverage| |downloads| |license|
+|pypi| |downloads| |license|
 
 
 This module is a merge of:
@@ -22,7 +22,7 @@ and inspired by:
 * `12factor-django`_
 * `Two Scoops of Django`_
 
-This is your `settings.py` file before you have installed **django-environ**
+This is your `settings.py` file before you have installed **dj-environ**
 
 .. code-block:: python
 
@@ -124,7 +124,7 @@ How to install
 
 ::
 
-    $ pip install django-environ
+    $ pip install dj-environ
 
 
 How to use
@@ -241,8 +241,8 @@ Tests
 
 ::
 
-    $ git clone git@github.com:joke2k/django-environ.git
-    $ cd django-environ/
+    $ git clone https://github.com/ratson/dj-environ.git
+    $ cd dj-environ/
     $ python setup.py test
 
 
@@ -338,28 +338,16 @@ Credits
 .. _Distribute: http://pypi.python.org/pypi/distribute
 .. _`modern-package-template`: http://pypi.python.org/pypi/modern-package-template
 
-.. |pypi| image:: https://img.shields.io/pypi/v/django-environ.svg?style=flat-square&label=version
-    :target: https://pypi.python.org/pypi/django-environ
+.. |pypi| image:: https://img.shields.io/pypi/v/dj-environ.svg?style=flat-square&label=version
+    :target: https://pypi.python.org/pypi/dj-environ
     :alt: Latest version released on PyPi
 
-.. |coverage| image:: https://img.shields.io/coveralls/joke2k/django-environ/master.svg?style=flat-square
-    :target: https://coveralls.io/r/joke2k/django-environ?branch=master
-    :alt: Test coverage
-
-.. |unix_build| image:: https://img.shields.io/travis/joke2k/django-environ/master.svg?style=flat-square&label=unix%20build
-    :target: http://travis-ci.org/joke2k/django-environ
-    :alt: Build status of the master branch on Mac/Linux
-
-.. |windows_build|  image:: https://img.shields.io/appveyor/ci/joke2k/django-environ.svg?style=flat-square&label=windows%20build
-    :target: https://ci.appveyor.com/project/joke2k/django-environ
-    :alt: Build status of the master branch on Windows
-
-.. |downloads| image:: https://img.shields.io/pypi/dm/django-environ.svg?style=flat-square
-    :target: https://pypi.python.org/pypi/django-environ
+.. |downloads| image:: https://img.shields.io/pypi/dm/dj-environ.svg?style=flat-square
+    :target: https://pypi.python.org/pypi/dj-environ
     :alt: Monthly downloads
 
 .. |license| image:: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
-    :target: https://raw.githubusercontent.com/joke2k/django-environ/master/LICENSE.txt
+    :target: https://raw.githubusercontent.com/ratson/dj-environ/master/LICENSE.txt
     :alt: Package license
 
-.. _LICENSE: https://github.com/joke2k/django-environ/blob/master/LICENSE.txt
+.. _LICENSE: https://github.com/ratson/dj-environ/blob/master/LICENSE.txt
