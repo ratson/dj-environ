@@ -1,8 +1,8 @@
-==============
-Django-environ
-==============
+==========
+Dj-environ
+==========
 
-Django-environ allows you to utilize 12factor inspired environment variables to configure your Django application.
+Dj-environ allows you to utilize 12factor inspired environment variables to configure your Django application.
 
 |pypi| |downloads| |license|
 
@@ -229,6 +229,15 @@ Tests
     $ git clone https://github.com/ratson/dj-environ.git
     $ cd dj-environ/
     $ python setup.py test
+
+
+Credits
+=======
+
+This is a fork of `django-environ <https://github.com/joke2k/django-environ>`_,
+which has the following differences,
+
+* Support PostgreSQL URL using unix domain socket paths, e.g. postgres:////var/run/postgresql/db
 
 
 .. |pypi| image:: https://img.shields.io/pypi/v/dj-environ.svg?style=flat-square&label=version
