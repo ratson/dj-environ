@@ -1,7 +1,3 @@
-"""
-Django-environ allows you to utilize 12factor inspired environment
-variables to configure your Django application.
-"""
 import json
 import logging
 import os
@@ -19,11 +15,6 @@ from six.moves import urllib
 from six import string_types
 
 logger = logging.getLogger(__name__)
-
-
-VERSION = '0.4.1'
-__author__ = 'joke2k'
-__version__ = tuple(VERSION.split('.'))
 
 
 # return int if possible

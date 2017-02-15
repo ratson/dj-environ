@@ -10,7 +10,7 @@ README = io.open(os.path.join(here, 'README.rst'), encoding="utf8").read()
 
 version = '0.0.1'
 author = 'Ratson'
-description = "Django-environ allows you to utilize 12factor inspired environment " \
+description = "Dj-environ allows you to utilize 12factor inspired environment " \
               "variables to configure your Django application."
 install_requires = ['django', 'six']
 
