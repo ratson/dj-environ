@@ -1,4 +1,4 @@
-Welcome to Django-environ's documentation!
+Welcome to Dj-environ's documentation!
 ==========================================
 
 .. automodule:: environ.environ
@@ -61,4 +61,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-
